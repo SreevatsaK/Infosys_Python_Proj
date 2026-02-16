@@ -1,0 +1,10 @@
+11. Databases store structured information.
+12. SQL is used to manage relational databases.
+13. Machine learning enables systems to learn from data.
+14. Artificial intelligence simulates human intelligence.
+15. Neural networks are inspired by the human brain.
+16. Cybersecurity protects systems from digital attacks.
+17. Encryption secures sensitive information.
+18. Cloud computing provides on-demand computing resources.
+19. AWS is a leading cloud platform.
+20. Azure is Microsoft's cloud computing service.

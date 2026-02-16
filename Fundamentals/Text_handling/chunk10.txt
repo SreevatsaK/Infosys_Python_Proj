@@ -1,0 +1,10 @@
+91. Recursion solves problems by repetition.
+92. Sorting algorithms arrange data.
+93. Searching algorithms find data efficiently.
+94. Graph theory models relationships.
+95. Artificial neural networks process patterns.
+96. Reinforcement learning trains agents via rewards.
+97. Natural language processing understands text.
+98. Computer vision analyzes images.
+99. Ethics in AI ensures responsible development.
+100. Computer science drives innovation worldwide.

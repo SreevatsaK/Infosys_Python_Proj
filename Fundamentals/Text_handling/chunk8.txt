@@ -1,0 +1,10 @@
+71. GPUs accelerate parallel tasks.
+72. Memory stores temporary data.
+73. Hard drives store persistent data.
+74. SSDs are faster than HDDs.
+75. Input devices provide data to computers.
+76. Output devices display information.
+77. Human-computer interaction improves usability.
+78. User experience design enhances satisfaction.
+79. Embedded systems control hardware devices.
+80. Robotics integrates hardware and software.

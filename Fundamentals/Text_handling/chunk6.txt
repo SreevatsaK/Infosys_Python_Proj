@@ -1,0 +1,10 @@
+51. Computer networks connect devices.
+52. TCP/IP is a communication protocol.
+53. The Internet connects billions of devices.
+54. Routers forward network traffic.
+55. Firewalls protect networks from threats.
+56. Parallel computing improves performance.
+57. Distributed systems share computation across nodes.
+58. Virtualization enables multiple systems on one machine.
+59. Containers package applications efficiently.
+60. Docker is a containerization platform.

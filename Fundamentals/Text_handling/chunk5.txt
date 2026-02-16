@@ -1,0 +1,10 @@
+41. React is a JavaScript library for UI.
+42. Node.js runs JavaScript on the server.
+43. Mobile app development targets smartphones.
+44. Android apps are built using Kotlin or Java.
+45. iOS apps are built using Swift.
+46. Data science extracts insights from data.
+47. Visualization helps present data effectively.
+48. Pandas is used for data analysis in Python.
+49. NumPy supports numerical computations.
+50. Matplotlib creates visualizations.

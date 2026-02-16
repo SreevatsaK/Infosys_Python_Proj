@@ -1,0 +1,10 @@
+81. Quantum computing explores quantum mechanics.
+82. Edge computing processes data near the source.
+83. IoT connects smart devices.
+84. 5G improves wireless communication.
+85. Software architecture defines system structure.
+86. Microservices break applications into services.
+87. Monolithic architecture combines components.
+88. Design patterns provide reusable solutions.
+89. Object-oriented programming uses classes and objects.
+90. Functional programming uses pure functions.

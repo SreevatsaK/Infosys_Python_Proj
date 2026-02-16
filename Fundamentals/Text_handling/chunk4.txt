@@ -1,0 +1,10 @@
+31. Git is a popular version control tool.
+32. GitHub hosts code repositories.
+33. APIs enable software systems to communicate.
+34. REST is a common API architecture style.
+35. Frontend development focuses on user interfaces.
+36. Backend development handles server-side logic.
+37. Full-stack developers work on both frontend and backend.
+38. HTML structures web content.
+39. CSS styles web pages.
+40. JavaScript adds interactivity to websites.

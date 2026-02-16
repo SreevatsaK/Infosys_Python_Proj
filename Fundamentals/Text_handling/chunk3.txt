@@ -1,0 +1,10 @@
+21. Google Cloud provides scalable cloud solutions.
+22. Big data involves processing large datasets.
+23. Hadoop is used for distributed data processing.
+24. Spark is a fast data processing framework.
+25. Blockchain is a distributed ledger technology.
+26. Cryptography ensures secure communication.
+27. Software engineering focuses on software development processes.
+28. Agile methodology promotes iterative development.
+29. DevOps integrates development and operations.
+30. Version control systems track code changes.

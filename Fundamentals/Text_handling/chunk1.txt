@@ -1,0 +1,10 @@
+1. Computer science is the study of computation and information.
+2. Algorithms are step-by-step procedures to solve problems.
+3. Data structures organize and store data efficiently.
+4. Programming languages allow humans to communicate with computers.
+5. Python is a popular high-level programming language.
+6. Java is widely used in enterprise applications.
+7. C++ is known for performance and system programming.
+8. Operating systems manage hardware and software resources.
+9. Linux is an open-source operating system.
+10. Windows is a widely used desktop operating system.

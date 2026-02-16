@@ -1,0 +1,10 @@
+61. Kubernetes manages containerized applications.
+62. Software testing ensures quality.
+63. Unit testing checks individual components.
+64. Integration testing checks combined components.
+65. Debugging fixes software errors.
+66. Compilers translate code into machine language.
+67. Interpreters execute code line by line.
+68. Assembly language is low-level programming.
+69. Binary is the base-2 number system.
+70. CPUs execute instructions.
