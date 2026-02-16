@@ -1,0 +1,33 @@
+#Open & Read_Op
+with open(r"C:\Users\sreev\Desktop\sree.txt","r") as f:
+   content=f.read()
+   print(content)
+
+#Write_Op
+with open(r"C:\Users\sreev\Desktop\sree.txt","w") as f:
+    f.write("Hello Sreevatsa, How r u?\n")
+with open(r"C:\Users\sreev\Desktop\sree.txt","r") as f:
+    print(f.read())
+
+#Append_Op
+with open(r"C:\Users\sreev\Desktop\sree.txt","a") as f:
+    f.write("Iam doing Python project in Infosys internship\n")
+with open(r"C:\Users\sreev\Desktop\sree.txt","r") as f:
+    print(f.read())
+
+#Delete_Op
+import os
+os.remove(r"C:\Users\sreev\Desktop\sree.txt")
+
+#file exists or not 
+import os
+if os.path.exists(r"C:\Users\sreev\Desktop\sree.txt"):
+    print("Exists")
+else:
+    print("Not Exists")
+
+#seek_Op
+with open(r"C:\Users\sreev\Desktop\sree.txt","w+") as f:
+    f.write("Hello Sreevatsa, How r u?\n")
+    f.seek(0)
+    print(f.read())
