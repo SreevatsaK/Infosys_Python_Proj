@@ -1,0 +1,100 @@
+1. Computer science is the study of computation and information.
+2. Algorithms are step-by-step procedures to solve problems.
+3. Data structures organize and store data efficiently.
+4. Programming languages allow humans to communicate with computers.
+5. Python is a popular high-level programming language.
+6. Java is widely used in enterprise applications.
+7. C++ is known for performance and system programming.
+8. Operating systems manage hardware and software resources.
+9. Linux is an open-source operating system.
+10. Windows is a widely used desktop operating system.
+11. Databases store structured information.
+12. SQL is used to manage relational databases.
+13. Machine learning enables systems to learn from data.
+14. Artificial intelligence simulates human intelligence.
+15. Neural networks are inspired by the human brain.
+16. Cybersecurity protects systems from digital attacks.
+17. Encryption secures sensitive information.
+18. Cloud computing provides on-demand computing resources.
+19. AWS is a leading cloud platform.
+20. Azure is Microsoft's cloud computing service.
+21. Google Cloud provides scalable cloud solutions.
+22. Big data involves processing large datasets.
+23. Hadoop is used for distributed data processing.
+24. Spark is a fast data processing framework.
+25. Blockchain is a distributed ledger technology.
+26. Cryptography ensures secure communication.
+27. Software engineering focuses on software development processes.
+28. Agile methodology promotes iterative development.
+29. DevOps integrates development and operations.
+30. Version control systems track code changes.
+31. Git is a popular version control tool.
+32. GitHub hosts code repositories.
+33. APIs enable software systems to communicate.
+34. REST is a common API architecture style.
+35. Frontend development focuses on user interfaces.
+36. Backend development handles server-side logic.
+37. Full-stack developers work on both frontend and backend.
+38. HTML structures web content.
+39. CSS styles web pages.
+40. JavaScript adds interactivity to websites.
+41. React is a JavaScript library for UI.
+42. Node.js runs JavaScript on the server.
+43. Mobile app development targets smartphones.
+44. Android apps are built using Kotlin or Java.
+45. iOS apps are built using Swift.
+46. Data science extracts insights from data.
+47. Visualization helps present data effectively.
+48. Pandas is used for data analysis in Python.
+49. NumPy supports numerical computations.
+50. Matplotlib creates visualizations.
+51. Computer networks connect devices.
+52. TCP/IP is a communication protocol.
+53. The Internet connects billions of devices.
+54. Routers forward network traffic.
+55. Firewalls protect networks from threats.
+56. Parallel computing improves performance.
+57. Distributed systems share computation across nodes.
+58. Virtualization enables multiple systems on one machine.
+59. Containers package applications efficiently.
+60. Docker is a containerization platform.
+61. Kubernetes manages containerized applications.
+62. Software testing ensures quality.
+63. Unit testing checks individual components.
+64. Integration testing checks combined components.
+65. Debugging fixes software errors.
+66. Compilers translate code into machine language.
+67. Interpreters execute code line by line.
+68. Assembly language is low-level programming.
+69. Binary is the base-2 number system.
+70. CPUs execute instructions.
+71. GPUs accelerate parallel tasks.
+72. Memory stores temporary data.
+73. Hard drives store persistent data.
+74. SSDs are faster than HDDs.
+75. Input devices provide data to computers.
+76. Output devices display information.
+77. Human-computer interaction improves usability.
+78. User experience design enhances satisfaction.
+79. Embedded systems control hardware devices.
+80. Robotics integrates hardware and software.
+81. Quantum computing explores quantum mechanics.
+82. Edge computing processes data near the source.
+83. IoT connects smart devices.
+84. 5G improves wireless communication.
+85. Software architecture defines system structure.
+86. Microservices break applications into services.
+87. Monolithic architecture combines components.
+88. Design patterns provide reusable solutions.
+89. Object-oriented programming uses classes and objects.
+90. Functional programming uses pure functions.
+91. Recursion solves problems by repetition.
+92. Sorting algorithms arrange data.
+93. Searching algorithms find data efficiently.
+94. Graph theory models relationships.
+95. Artificial neural networks process patterns.
+96. Reinforcement learning trains agents via rewards.
+97. Natural language processing understands text.
+98. Computer vision analyzes images.
+99. Ethics in AI ensures responsible development.
+100. Computer science drives innovation worldwide.
