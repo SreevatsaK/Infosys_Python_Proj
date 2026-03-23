@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>SENTRIX — Analytics</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<div class="wave-crash" id="waveCrash"></div>
+
+<nav>
+  <div class="nav-logo"><div class="dot"></div>SENT<span>RIX</span></div>
+  <div class="nav-links">
+    <a href="/" class="nav-link" onclick="triggerWave('/');return false;">⬆ Upload</a>
+    <a href="/results_page" class="nav-link active" onclick="triggerWave('/results_page');return false;">📊 Results</a>
+    <a href="/search_page" class="nav-link" onclick="triggerWave('/search_page');return false;">🔍 Search</a>
+  </div>
+</nav>
+
+<div class="page" id="pageContent">
+  <div class="loading-state">
+    <div class="loading-icon">⚙</div>
+    Loading analytics…
+  </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

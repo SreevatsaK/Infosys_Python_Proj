@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>SENTRIX — Search</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<div class="wave-crash" id="waveCrash"></div>
+
+<nav>
+  <div class="nav-logo"><div class="dot"></div>SENT<span>RIX</span></div>
+  <div class="nav-links">
+    <a href="/" class="nav-link" onclick="triggerWave('/');return false;">⬆ Upload</a>
+    <a href="/results_page" class="nav-link" onclick="triggerWave('/results_page');return false;">📊 Results</a>
+    <a href="/search_page" class="nav-link active" onclick="triggerWave('/search_page');return false;">🔍 Search</a>
+  </div>
+</nav>
+
+<div class="page search-page">
+
+  <div class="page-header">
+    <div class="page-eyebrow">Intelligent Query</div>
+    <h1 class="page-title-purple">Search &amp; Explore</h1>
+  </div>
+
+  <div class="search-hero">
+    <div class="search-tabs">
+      <button class="tab active" onclick="setMode('keyword', this)">🔑 Keyword</button>
+      <button class="tab" onclick="setMode('sentence', this)">💬 Sentence / Phrase</button>
+      <button class="tab" onclick="setMode('both', this)">🔀 Both</button>
+    </div>
+
+    <div class="search-main-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-main-input" id="searchInput"
+             placeholder="Type a keyword, phrase, or sentence…"
+             onkeydown="if(event.key==='Enter') runSearch()"
+             oninput="debounceFilterSuggestions()"/>
+    </div>
+
+    <div class="filters-row">
+      <div class="field">
+        <label>Min Sentiment Score</label>
+        <input type="number" id="minScore" placeholder="e.g. -5"/>
+      </div>
+      <div class="field">
+        <label>Max Sentiment Score</label>
+        <input type="number" id="maxScore" placeholder="e.g. 10"/>
+      </div>
+      <button class="btn btn-primary" onclick="runSearch()">🔍 Search</button>
+    </div>
+
+    <div class="suggestions-wrap">
+      <div class="suggestions-label">💡 Keyword Suggestions from your data</div>
+      <div class="suggestions" id="suggestions">
+        <span class="no-suggestions">Loading keywords from processed data…</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="result-bar" id="resultBar" style="display:none">
+    <div class="result-count">Found <strong id="resultCount">0</strong> results</div>
+    <div class="export-row">
+      <button class="btn btn-outline btn-sm" onclick="exportSearch('csv')">⬇ Export CSV</button>
+      <button class="btn btn-purple btn-sm" onclick="exportSearch('excel')">📊 Export Excel</button>
+    </div>
+  </div>
+
+  <div class="alert error" id="searchAlert" style="display:none;margin-bottom:1rem"></div>
+
+  <div id="resultsArea">
+    <div class="state-box">
+      <div class="state-icon">🔍</div>
+      <div class="state-msg">
+        Enter a keyword or phrase above and hit <strong>Search</strong>.<br>
+        Keyword suggestions will auto-populate from your processed data.
+      </div>
+    </div>
+  </div>
+
+  <div class="email-section" id="emailSection" style="display:none">
+    <h4>📧 Email Search Results</h4>
+    <div class="field">
+      <label>Recipient Email</label>
+      <input type="email" id="emailInputS" placeholder="you@example.com"/>
+    </div>
+    <button class="btn btn-primary" onclick="sendEmailSearch()">📤 Send</button>
+    <div class="email-alert" id="emailAlertS"></div>
+  </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
