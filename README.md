@@ -34,7 +34,16 @@ The system is designed to efficiently process large volumes of text data using P
 - ✅ **Professional UI** : Dark cyberpunk theme with animated charts and page transitions
 
 ---
-
+## 🖼 Application Preview
+ 
+<div align="center">
+ 
+### Upload & Processing Page
+![SENTRIX Dashboard](project/Preview.png)
+ 
+</div>
+ 
+---
 ## ✨ Features
 
 ### Core Processing
