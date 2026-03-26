@@ -1,10 +1,3 @@
-"""
-chunker.py  —  Universal Text Chunker
-Chunk size = number of LINES / ROWS (not words)
-Supports: .txt .csv .json .jsonl .xml .md .log  +  raw text strings
-Handles:  any file size, any encoding, empty files — never raises
-"""
-
 import os
 import csv
 import json
